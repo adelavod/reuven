@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #d3d9df;
+}
+
+img {
+    margin-top: 20px;
+}
+
+.jumbotron-fluid {
+    margin-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: darkgray 1px solid;
+    border-top: darkgray 1px solid;
+    background-color: gray;
+}
+
+@media (max-width: 767px){
+    h2 {padding-top: 20px}
+}
+p {
+    text-align: justify;
+}
+a{
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    color: #f8d7da;
+}
